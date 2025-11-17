@@ -1,9 +1,9 @@
 Data Warehouse Project (Medallion Architecture)
-📌 Overview
+
 
 This project implements a Data Warehouse using the Medallion Architecture (Bronze, Silver, Gold layers) to process and organize data from multiple business systems including ERP, CRM, and WMS. The goal is to provide clean, structured, and analytics-ready data for reporting and decision-making.
 
-✅ Architecture
+Architecture
 
 Bronze Layer (Staging)
 Raw ingested data from sources such as ERP, CRM, and WMS.
@@ -32,11 +32,11 @@ ERP → Order, Inventory, Finance Data
 
 CRM → Customer and Sales Data
 
-WMS → Warehouse Operations Data
+
 
 ⚙ Pipeline Flow
 
-Extract data from ERP, CRM, WMS.
+Extract data from ERP, CRM
 
 Load into Bronze (staging).
 
